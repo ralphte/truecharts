@@ -30,6 +30,11 @@ service:
       main:
         port: 9000
         targetPort: 9000
+  console:
+    ports:
+      console:
+        targetPort: 9001
+        port: 9001
 
 securityContext:
   readOnlyRootFilesystem: false
