@@ -1324,10 +1324,12 @@ questions:
                                               label: "Service Name"
                                               schema:
                                                 type: string
+                                                required: true
                                                 default: ""
                                             - variable: port
                                               label: "Service Port"
                                               schema:
+                                                required: true
                                                 type: int
               - variable: tls
                 label: "TLS-Settings"
