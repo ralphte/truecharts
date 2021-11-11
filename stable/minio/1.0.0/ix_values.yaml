@@ -7,7 +7,7 @@ image:
   pullPolicy: IfNotPresent
 
 # -- Override the args for the default container.
-args: ['server', '/data', '--console-address', '":9001"']
+args: ["server", "/data", "--console-address", ":9001"]
 
 secret:
     # -- Minio Password
