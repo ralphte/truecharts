@@ -204,7 +204,7 @@ questions:
             type: string
             default: "002"
         - variable: MINIO_ROOT_USER
-          label: "CMINIO_ROOT_USER"
+          label: "MINIO_ROOT_USER"
           schema:
             type: string
             default: "minio"
